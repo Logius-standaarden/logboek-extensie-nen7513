@@ -4,13 +4,11 @@ let respecConfig = {
   license: "cc-by",
   specStatus: "DEF",
   specType: "HR",
-  pubDomain: "dk",
-  shortName: "template",
-  publishDate: "2023-06-21",
-  publishVersion: "0.0.3",
-  
-  previousPublishVersion: "0.0.2",
-  previousPublishDate: "2022-06-24",
+  pubDomain: "logboek",
+  shortName: "logboek-nen7513",
+  publishDate: "2025-03-31",
+  publishVersion: "0.0.1",
+
   previousMaturity: "WV",
   editors:
     [
@@ -28,14 +26,15 @@ let respecConfig = {
         companyURL: "https://github.com/Logius-standaarden",
       }
     ],
-  github: "https://github.com/Logius-standaarden/ReSpec-template",
+  github: "https://github.com/Logius-standaarden/logboek-extensie-nen7513",
 
-
-  // Create PDF and link to file in header (optional):
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "template.pdf",
-      },
-  ],
+  localBiblio: {
+    NEN7513: {
+      authors: ["Normcommissie Informatievoorziening in de zorg"],
+      date: "December 2024",
+      href: "https://www.nen.nl/nen-7513-2024-nl-329182",
+      publisher: "NEN",
+      title: "Medische informatica - Logging - Vastleggen van acties op persoonlijke gezondheidsinformatie"
+  },
+  }
 };
