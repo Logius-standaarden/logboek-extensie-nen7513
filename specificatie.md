@@ -19,9 +19,7 @@ Deze mapping is als volgt:
 | `parent_span_id` | Onderdeel van W3C-Trace-Context-Traceparent |
 
 <p class="note">
-
 Let op: `end_time` is ook onderdeel van de interface van het Logboek component, maar niet vereist voor de NEN7513-norm.
-
 </p>
 
 Tevens zijn er bestaande attributen in de namespace `dpl.core` die mappen naar NEN7513-velden:
@@ -33,10 +31,8 @@ Tevens zijn er bestaande attributen in de namespace `dpl.core` die mappen naar N
 | `dpl.core.data_subject_id_type`   | `ParticipantObjectIDTypeCode` |
 
 <p class="note">
-
 Let op: `ParticipantObjectID` en `ParticipantObjectIDTypeCode` komen tevens respectievelijk voor als `dpl.nen7513.participantObjectId` en `dpl.nen7513.participantObjectIdType` attributes in de namespace-specifieke data zoals hieronder beschreven.
 Dit is gedaan om alle NEN7513 velden in 1 object te plaatsen wat verder gebruik kan vergemakkelijken.
-
 </p>
 
 ### Uitbreiding `resource` van Logboek component
