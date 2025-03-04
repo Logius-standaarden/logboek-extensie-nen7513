@@ -1,28 +1,40 @@
 <!DOCTYPE html>
-<html lang="nl">
-
-<head>
-  <meta content="text/html; charset=utf-8" http-equiv="content-type">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <script src="https://cdn.jsdelivr.net/gh/digitalbazaar/respec-mermaid@1.0.1/dist/main.js" class="remove"></script>
-  <script src="js/organisation-config.js" class="remove"></script>
-  <script src="js/config.js" class="remove"></script>
-  <script class="remove"> respecConfig = {...organisationConfig, ...respecConfig}</script>
-  <script>document.title = respecConfig.title</script>
-  <title>Default</title>
-  <link rel="shortcut icon" type="image/x-icon" href="https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/logius.ico" />
-  <script src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js" class="remove" async></script>
-</head>
-
-<body>
-  <section id="abstract" data-include-format="markdown" data-include="abstract.md"></section>
-  <section id="sotd"></section><!-- Wordt automatisch gevuld -->
-  <section class="informative" data-include-format="markdown" data-include="ch01.md"></section>
-  <section data-include-format="markdown" data-include="ch02.md"></section>
-  <section data-include-format="markdown" data-include="mermaid.md"></section>
-  <section id='conformance'></section>
-  <section id='tof'></section>
-  <section id="index"></section>
-</body>
-
+<html lang="en">
+ <!-- HTML-Header ============================================================================== -->
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+  <!-- Invullen: de titel van de standaard of het document ==================================== -->
+  <title>
+   Logboek Dataverwerkingen NEN7513 Extensie
+  </title>
+  <!-- Invullen: de naam van de lokale CSS file =============================================== -->
+  <link href="./media/style.css" rel="stylesheet" type="text/css"/>
+  <script class="remove" src="https://logius-standaarden.github.io/publicatie/respec/organisation-config.js">
+  </script>
+  <script class="remove" src="js/config.js">
+  </script>
+  <script class="remove">
+   respecConfig = {...organisationConfig, ...respecConfig};
+   respecConfig.localBiblio = {...organisationConfig.localBiblio, ...respecConfig.localBiblio};
+  </script>
+  <link href="https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/logius.ico" rel="shortcut icon" type="image/x-icon"/>
+  <script async="" class="remove" src="https://gitdocumentatie.logius.nl/publicatie/respec/builds/respec-nlgov.js">
+  </script>
+  <script class="remove" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js">
+  </script>
+  <script class="remove" defer="" src="js/rules.js">
+  </script>
+ </head>
+ <!-- HTML-Body ================================================================================ -->
+ <body>
+  <section data-include="abstract.md" data-include-format="markdown" id="abstract" class="informative">
+  </section>
+  <section class="notoc" id="conformance">
+  </section>
+  <section id="sotd">
+  </section>
+  <section data-include="specificatie.md" data-include-format="markdown" class="informative">
+  </section>
+ </body>
 </html>
