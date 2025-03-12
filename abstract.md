@@ -4,5 +4,5 @@ Deze extensie beschrijft de technische specificaties hoe de Logboek Dataverwerki
 
 <p class="note">
 Dit document is een conceptversie voor een extensie, ter illustratie van een mogelijke samenkoppeling van de twee standaarden.
-De extensie is dus niet vastgesteld en direct bruikbaar als standaard.
+De extensie is dus niet vastgesteld en niet direct bruikbaar als standaard.
 </p>
