@@ -12,6 +12,8 @@ loadRespecWithConfiguration({
   publishVersion: "0.0.1",
 
   latestVersion: "https://logius-standaarden.github.io/logboek-extensie-nen7513/",
+  // TODO: Remove before publishing
+  prevVersion: [],
 
   previousMaturity: "WV",
   editors:
