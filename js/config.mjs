@@ -19,17 +19,27 @@ loadRespecWithConfiguration({
   editors:
     [
       {
-        name: "Logius Standaarden",
+        name: "Nil Barua",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
+      },
+      {
+        name: "Tim van der Lippe",
+        company: "Logius",
+        companyURL: "https://www.logius.nl",
       }
     ],
   authors:
     [
       {
-        name: "Logius Standaarden",
+        name: "Nil Barua",
         company: "Logius",
-        companyURL: "https://logius.nl",
+        companyURL: "https://www.logius.nl",
+      },
+      {
+        name: "Tim van der Lippe",
+        company: "Logius",
+        companyURL: "https://www.logius.nl",
       }
     ],
   github: "https://github.com/Logius-standaarden/logboek-extensie-nen7513",
